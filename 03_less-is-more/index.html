@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Less is more</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <canvas id="canvas1"></canvas> <!--you just wrote canvas#canvas1-->
+
+        <div class="assets">
+            <img id="background" src="images/background/bedroom.png"> <!--tho in styles we are hiding this bg-->
+            <!-- <img id="background" src="images/background/parallax1.png"> -->
+            <img id="player" src="images/Transparent PNG/spritesheet.png"> 
+        </div>
+
+        <script src="background.js"></script>
+        <script src="player.js"></script> <!--we need it to be before main.js-->
+        <script src="interactible.js"></script>
+        <script src="main.js"></script>
+        
+    </body>
+</html>
